@@ -2,7 +2,7 @@ import streamlit as st
 import pickle
 
 # Load model and vectorizer
-model = pickle.load(open("model.pkl", "rb"))
+model = pickle.load(open("spam_classifier (3).pkl", "rb"))
 vectorizer = pickle.load(open("vectorizer.pkl", "rb"))
 
 st.title("Email Spam Classifier")
